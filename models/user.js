@@ -11,6 +11,10 @@ class User extends Model{
         })
 
     }
+
+    static associate(models){
+        this.hasMany(models.todos, { foreignKey:'user_id', as:'todo' })
+    }
 }
 
 module.exports = User;
