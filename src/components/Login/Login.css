@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --dark-purple: #0D0714;
+    --dark-grey: #120D18;
+    --grey: #777777;
+    --purple: #3E1671;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    background-color: var(--dark-purple);
+    font-size: 1rem;
+    font-family: 'Inter';
+    letter-spacing: 0.04rem;
+}
+
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container-square{
+    background-color: var(--dark-grey);
+    width: 40.28%;
+    padding: 87px 70px;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-register{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.text-reg{
+    color: var(--grey);
+}
+.text-reg, .link-reg{
+    color: var(--grey);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+}
+
+.inputs-area{
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.global-label{
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+.input-global{
+    padding: 0.8rem;
+    background: white;
+    border: 1px solid var(--purple);
+    border-radius: 0.6rem;
+    color: black;
+}
+
+.button-submit{
+    padding: 0.9rem 8.9rem;
+    color: white;
+    font-weight: 600;
+    background-color: var(--purple);
+    cursor: pointer;
+    border: none;
+    border-radius: 0.6rem;
+}
