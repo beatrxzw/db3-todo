@@ -7,6 +7,8 @@ class User extends Model{
             email: DataTypes.STRING,
             password: DataTypes.STRING,
         }, {
+            modelName: 'User', // Nome do modelo
+            tableName: 'users',
             sequelize: connection
         })
 
